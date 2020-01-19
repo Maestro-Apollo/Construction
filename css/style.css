@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.main_menu{
+    background-color: rgba(31, 31, 31, 0.9);
+    padding: 10px 0;
+}
+.navbar-brand{
+    padding-top: 0;
+}
+.collapse .navbar-nav .nav-item  a{
+    
+    font-family: Roboto;
+color:
+#ffffff;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 400;
+transition: 0.7s;
+}
+.collapse .navbar-nav .nav-item  a:hover{
+    color: #eec400;
+}
+.carousel-inner .carousel-item img {
+  width:100%;
+  height:900px;
+}
+.carousel-inner .carousel-item{
+    position: relative;
+}
+.carousel-caption h5{
+    font-family: Roboto;
+color:
+#eec400;
+font-size: 104px;/* Approximation due to font substitution */
+font-weight: 900;
+line-height: 90px;/* Approximation due to font substitution */
+text-align: center;
+    text-transform: uppercase;
+}
+.carousel-caption p{
+    font-family: Raleway;
+color:
+#ffffff;
+font-size: 24px;/* Approximation due to font substitution */
+font-weight: 400;
+text-align: center;
+    margin-bottom: 300px;
+}
+.carousel-inner .carousel-item .over_lay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.cont_us h3{
+    font-family: Roboto;
+color: #404040;
+font-size: 36px; /* Approximation due to font substitution */
+font-weight: 900;
+text-align: left;
+}
+.cont_us p{
+    font-family: Raleway;
+color: #404040;
+font-size: 14px; /* Approximation due to font substitution */
+font-weight: 400;
+text-align: left;
+}
+.cont_us{
+    background-color: rgba(238, 196, 0, 1);
+    padding: 70px 0;
+}
+.cont_us .cont_part a{
+    padding: 20px 80px;
+    text-decoration: none;
+    background-color: #404040;
+    color: #eec400;
+    border-radius: 5px;
+    font-family: Roboto;
+color:
+#ffffff;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 24px;
+    transition: 0.7s;
+    
+}
+.cont_us .cont_part a:hover{
+    background-color: #fff;
+    color: #eec400;
+}
+.welcome_part{
+    padding: 100px 0;
+}
+.welcome_part p{
+    letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.welcome_part .col-md-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-body .fas{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card{
+    transition: 0.7s;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+.card .mb-4{
+    text-transform: uppercase;
+    font-family: Roboto;
+color:
+#404040;
+font-size: 24px;/* Approximation due to font substitution */
+font-weight: 900;
+    transition: 0.7s;
+
+}
+.card .card-text{
+    font-family: Raleway;
+color: #626262;
+font-size: 14px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 24px; /* Approximation due to font substitution */
+text-align: center;
+    transition: 0.7s;
+}
+.card:hover{
+    background-color: #eec400;
+    color: #fff;
+}
+.card:hover .card-text{
+    color: #fff;
+}
+.card:hover .mb-4{
+    color: #fff;
+}
+.backimg2{
+    padding: 200px 0;
+    background-image: url(../images/b2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.offering{
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+.offering h2{
+	font-family: Roboto;
+color:
+#404040;
+font-size: 36px;/* Approximation due to font substitution */
+font-weight: 900;
+text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.offering .fas{
+    font-size: 44px;
+    color: #eec400;
+}
+.offering .row h4{
+    font-family: Roboto;
+color:
+#404040;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 900;
+    text-transform: uppercase;
+}
+.offering .row p{
+    font-family: Raleway;
+color: #626262;
+font-size: 14px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 24px; /* Approximation due to font substitution */
+    text-align: justify;
+}
+.gallery{
+    padding: 100px 0;
+}
+.gallery p{
+	margin-bottom: 0;
+    font-family: Raleway;
+color: #626262;
+font-size: 14px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 24px; /* Approximation due to font substitution */
+text-align: center;
+}
+.gallery h2{
+	font-family: Roboto;
+color:
+#404040;
+font-size: 36px;/* Approximation due to font substitution */
+font-weight: 900;
+    text-transform: uppercase;
+}
+.gallery a{
+    text-decoration: none;
+    padding: 20px 80px;
+    background-color: #eec400;
+    font-family: Roboto;
+color: #404040;
+font-size: 18px; /* Approximation due to font substitution */
+font-weight: 700;
+text-align: left;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.gallery a:hover{
+    background-color: #404040;
+    color: #eec400;
+}
+.footer_part{
+    background-color: #424242;
+    padding: 80px 0;
+}
+.footer_part p{
+    font-family: Raleway;
+color: #ffffff;
+font-size: 14px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 26.314px; /* Approximation due to font substitution */
+text-align: left;
+    margin-bottom: 0;
+}
+.footer_part h4{
+    margin-top: 20px;
+    font-family: Roboto;
+color:
+#ffffff;
+font-size: 24px;/* Approximation due to font substitution */
+font-weight: 900;
+text-align: left;
+}
+.footer_part h3{
+    margin-top: 20px;
+    font-family: Raleway;
+color:
+#eec400;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 28.01px;/* Approximation due to font substitution */
+text-align: left;
+}
+.font_icon .fab{
+    margin-right: 20px;
+    margin-top: 50px;
+    color: #eec400;
+    font-size: 24px;
+    transition: 0.7s;
+}
+.font_icon .fab:hover{
+    color: #000;
+}
+.footer_end .end_part{
+    background-color: #2f2f2f;
+}
+
+.footer_end .end_part p{
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-family: Roboto;
+color:
+#eec400;
+font-size: 12px;/* Approximation due to font substitution */
+font-weight: 700;
+line-height: 24px;/* Approximation due to font substitution */
+}
